@@ -1,4 +1,4 @@
-libwdi: A Windows Driver Installation library for USB devices
+libwdi: A Windows Driver Installation library for USB devices 
 =============================================================
 
 [![Build status](https://img.shields.io/github/actions/workflow/status/pbatard/libwdi/vs2022.yml?style=flat-square&label=VS2022)](https://github.com/pbatard/libwdi/actions/workflows/vs2022.yml)
