@@ -310,7 +310,7 @@ AC_ARG_ENABLE([examples-build], [AS_HELP_STRING([--enable-examples-build],
 	[build example applications (default n)])],
 	[build_examples=$enableval],
 	[build_examples='no'])
-AM_CONDITIONAL([BUILD_EXAMPLES], [test "x$build_examples" != "xno"])
+AM_CONDITIONAL([BUILD_EXAMPLES], [test "x$build_examples" != "xyes"])
 
 # check for -Wno-pointer-sign compiler support (GCC >= 4)
 saved_CFLAGS="${CFLAGS}"
